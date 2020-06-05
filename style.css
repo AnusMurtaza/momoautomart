@@ -328,21 +328,98 @@ li
 /********************************************** FOOTER SECTION ENDS ************************************************/
 
 
-/********************************************** CONTACT-US SECTION STARTS ************************************************/
 
-#contactUs
+/********************************************** CONTACT-US-LOCATION SECTION STARTS ************************************************/
+
+#contactUs-Location
 {
     color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: underline;
 }
 
-/********************************************** CONTACT-US SECTION ENDS ************************************************/
+/********************************************** CONTACT-US-LOCATION SECTION ENDS ************************************************/
 
 
 
 
+/********************************************** CONTACT-US-FORM SECTION STARTS ************************************************/
 
+
+.contactus-form
+{
+   
+    margin: 50px 10px 50px 10px;
+    padding: 50px 0 50px 0 ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    background: linear-gradient(330deg, red 55%,yellow 0%);
+}
+
+
+.form-button button {
+ 
+    
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 30px;
+    color:gray;
+  background-color:wheat;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    
+    
+    
+}
+
+ form:hover .form-button button
+ {
+     background: yellow;
+     color: red;
+     box-shadow: 0 0 20px 0 rgba(0,0,0, 0.3);
+     font-weight: 600;
+ }
+::placeholder
+{
+    font-size: 0.85rem;
+}
+
+
+/********************************************** CONTACT-US-FORM SECTION ENDS ************************************************/
+
+
+
+
+/********************************************** MEDIA QURIES SECTION STARTS ************************************************/
+
+@media only screen and (max-width: 576px){
+    .categories-name
+    {
+
+      height: 125px;
+
+   }
+ 
+   .categories-name h4
+{
+    font-size: 35px;
+}
+
+.contactus-form
+{
+   
+    margin: 50px 0 50px 0;
+    padding: 50px 0 50px 0 ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    background: linear-gradient(330deg, red 55%,yellow 0%);
+}
+
+}
+
+
+/********************************************** MEDIA QURIES SECTION ENDS ************************************************/
 
 
 
